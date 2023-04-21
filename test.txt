@@ -18,3 +18,9 @@
 ◯ブランチ関係
 ・既存のブランチから新規ブランチ作成
 	git checkout -b <new_branch_name> <old_branch_name>
+・リモートブランチからローカルブランチを作成
+	git checkout -b <ブランチ名> <origin/ブランチ名>
+・ローカルブランチ削除
+	git branch -d <ブランチ名>
+・リモートブランチ削除
+	git push origin --delete <ブランチ名>
