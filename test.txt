@@ -1,5 +1,5 @@
 1. リモートリポジトリをクローン : git clone https://github.com/gengithub17/gittest
-2. ブランチにログイン : git checkout branch_name
+2. ブランチにログイン : git checkout branch_name //このタイミングでローカルのファイルが書き換わる
 3. 編集
 4. git add test.txt
 5. git commit -m "commit message"
