@@ -1,0 +1,11 @@
+1. リモートリポジトリをクローン : git clone https://github.com/gengithub17/gittest
+2. ブランチにログイン : git checkout branch_name
+3. 編集
+4. git add test.txt
+5. git commit -m "commit message"
+
+・git ls-remote
+・git status
+	どのブランチにいるか
+	ステージングエリア(commitしたもの)に何があるか
+	まだaddされていないファイル
