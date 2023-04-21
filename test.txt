@@ -3,9 +3,18 @@
 3. 編集
 4. git add test.txt
 5. git commit -m "commit message"
+6. git push origin <push先ブランチ名>
 
 ・git ls-remote
 ・git status
 	どのブランチにいるか
 	ステージングエリア(commitしたもの)に何があるか
 	まだaddされていないファイル
+・git branch : ブランチ一覧確認
+	-a : ローカルだけじゃなくリモートも
+	-v : 最新のコミットメッセージ
+	-vv : トラッキングブランチの表示
+
+◯ブランチ関係
+・既存のブランチから新規ブランチ作成
+	git checkout -b <new_branch_name> <old_branch_name>
